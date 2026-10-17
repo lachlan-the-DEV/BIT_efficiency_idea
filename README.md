@@ -1,2 +1,3 @@
 # BIT_efficiency_idea
-Idea for smaller amounts of bits/bytes in text
+I've been thinking about whether we could make text storage more efficient by using fewer bits for common characters. For example, instead of using 8 bits for every English letter, we could use 5 bits, since 5 bits can represent 32 different values, which is enough for the 26 letters and a few extra characters. A special bit sequence could tell the computer that the following data uses this 5-bit format, with other codes reserved for spaces and punctuation. We could potentially take this further by giving common letters like E shorter codes and less common letters like Z longer ones, saving even more space. I know that similar ideas already exist in encoding and compression, so I'm not claiming this is a new invention. I'm just curious about how efficient a system like this could be and whether combining these approaches could have any advantages over existing methods.
+-lachlan 2026
